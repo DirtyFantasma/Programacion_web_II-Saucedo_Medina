@@ -20,3 +20,11 @@ function padLeft(value, padding) {
 console.log(padLeft("hello", "aaa"));
 console.log(padLeft("hello", 5));
 //console.log(padLeft("hello", true)); esta linea da error ya que hay un tipo de dato no perimitido en la funcion 
+var x = function (a) { return 0; };
+var y = function (b, s) { return 0; };
+y = x;
+//x = y; da error ya que x solo tiene un parametro
+var x1 = function () { return ({ name: 'Alice' }); };
+var y1 = function () { return ({ name: 'Alice', location: 'Seattle' }); };
+x1 = y1;
+//y1 = x1; da error ya que y1 tiene dos parametros
