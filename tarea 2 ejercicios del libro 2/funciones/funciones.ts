@@ -21,3 +21,15 @@ function padLeft(value: string, padding: string | number){
 console.log(padLeft("hello","aaa"));
 console.log(padLeft("hello", 5));
 //console.log(padLeft("hello", true)); esta linea da error ya que hay un tipo de dato no perimitido en la funcion 
+
+let x = (a: number) => 0;
+let y = (b: number, s: string) => 0;
+
+y = x;
+//x = y; da error ya que x solo tiene un parametro
+
+let x1 = () => ({name: 'Alice'});
+let y1 = () => ({name: 'Alice', location: 'Seattle'})
+
+x1 = y1;
+//y1 = x1; da error ya que y1 tiene dos parametros
