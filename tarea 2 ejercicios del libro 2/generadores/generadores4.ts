@@ -40,7 +40,7 @@ function getSecondName() {
 function* sayHello() {
     var a = yield getFirstName();
     var b = yield getSecondName();
-    console.log(a, b); //alex perry
+    console.log(a, b);
 }
 var gen = sayHello();
 gen.next();
