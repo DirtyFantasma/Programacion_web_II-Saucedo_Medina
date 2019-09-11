@@ -1,5 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { from } from 'rxjs';
+
 
 import { AppComponent } from './app.component';
 //import { Alumno } from './modelos/alumno.modelo/alumno.modelo.component';
@@ -20,7 +23,8 @@ import { Ej2waybindingComponent } from './ej2waybinding/ej2waybinding.component'
     Ej2waybindingComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
