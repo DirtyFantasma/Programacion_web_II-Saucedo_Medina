@@ -12,6 +12,9 @@ import { Ej2waybindingComponent } from './ej2waybinding/ej2waybinding.component'
 import { EjdirectivangifComponent } from './ejdirectivangif/ejdirectivangif.component';
 import { EjdirectivangstyleComponent } from './ejdirectivangstyle/ejdirectivangstyle.component';
 import { EjdirectivangclassComponent } from './ejdirectivangclass/ejdirectivangclass.component';
+import { EjedirectivangforComponent } from './ejedirectivangfor/ejedirectivangfor.component';
+import { ArrayobjetosComponent } from './arrayobjetos/arrayobjetos.component';
+import { EjdirectivangswitchComponent } from './ejdirectivangswitch/ejdirectivangswitch.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { EjdirectivangclassComponent } from './ejdirectivangclass/ejdirectivangc
     Ej2waybindingComponent,
     EjdirectivangifComponent,
     EjdirectivangstyleComponent,
-    EjdirectivangclassComponent
+    EjdirectivangclassComponent,
+    EjedirectivangforComponent,
+    ArrayobjetosComponent,
+    EjdirectivangswitchComponent
   ],
   imports: [
     BrowserModule,
