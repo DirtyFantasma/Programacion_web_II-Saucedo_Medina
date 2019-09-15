@@ -1,0 +1,28 @@
+li.lakers{
+    list-style: none;
+    margin: 50px;
+    padding: 10px;
+    border: 4px solid purple;
+    text-align: center;
+    width: 950px;
+}
+img.lakers{
+  margin: 0%;
+    
+}
+li.celtics{
+    list-style: none;
+    margin: 50px;
+    padding: 10px;
+    border: 4px solid green;
+    text-align: center;
+    width: 950px;
+}
+li.bulls{
+    list-style: none;
+    margin: 50px;
+    padding: 10px;
+    border: 4px solid red;
+    text-align: center;
+    width: 950px;
+}
