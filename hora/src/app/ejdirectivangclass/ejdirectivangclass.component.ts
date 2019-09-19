@@ -5,8 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './ejdirectivangclass.component.html',
   styleUrls: ['./ejdirectivangclass.component.css']
 })
-export class EjdirectivangclassComponent {
+export class EjdirectivangclassComponent implements OnInit {
 calificacion: number;
- 
+  constructor() { }
+
+  ngOnInit() {
+  }
 
 }

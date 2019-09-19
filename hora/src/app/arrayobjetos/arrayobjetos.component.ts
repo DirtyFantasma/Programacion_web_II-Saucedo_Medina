@@ -6,10 +6,14 @@ import { Alumno } from '../modelos/alumno.modelo';
   templateUrl: './arrayobjetos.component.html',
   styleUrls: ['./arrayobjetos.component.css']
 })
-export class ArrayobjetosComponent {
-  
-  public alumnos: Array<Alumno> = [
-    {id: 1, nombre: 'juan', apellidos: 'camaney', ciudad: 'Los Mochis'},
-    {id: 2, nombre: 'pedro', apellidos: 'infante' , ciudad: 'Guamuchil'}
-  ];
+export class ArrayobjetosComponent implements OnInit {
+public alumnos: Array<Alumno> =[
+  {id: 1, nombre: 'juan', apellidos: 'camaney', ciudad: 'los mochis'},
+  {id: 2, nombre: 'pedro', apellidos: 'infante', ciudad: 'guasave'}
+];
+  constructor() { }
+
+  ngOnInit() {
+  }
+
 }

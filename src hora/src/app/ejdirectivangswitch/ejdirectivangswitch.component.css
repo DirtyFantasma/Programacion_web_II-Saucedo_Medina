@@ -1,0 +1,49 @@
+ul {
+    text-align: center;
+    list-style: none;
+}
+.lakers{
+    max-width: 600px;
+    height: 120px;
+    background-image: url("../../assets/lal.png");
+    background-position-x: 10px;
+    background-position-y: 10px;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: purple;
+    margin-top: 30px;
+    box-shadow: 0 4x 8px 0 rgb(0,0,0,2), 0 6px 20px rgba(0, 0, 0, 19);
+}
+.celtics{
+    max-width: 600px;
+    height: 120px;
+    background-image: url("../../assets/cel.png");
+    background-position-x: 10px;
+    background-position-y: 10px;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: green;
+    margin-top: 30px;
+    box-shadow: 0 4x 8px 0 rgb(0,0,0,2), 0 6px 20px rgba(0, 0, 0, 19);
+}
+.bulls{
+    max-width: 600px;
+    height: 120px;
+    background-image: url("../../assets/bulls.png");
+    background-position-x: 10px;
+    background-position-y: 10px;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    margin-top: 30px;
+    box-shadow: 0 4x 8px 0 rgb(0,0,0,2), 0 6px 20px rgba(0, 0, 0, 19);
+}
+.equipo{
+    color: #707070;
+}

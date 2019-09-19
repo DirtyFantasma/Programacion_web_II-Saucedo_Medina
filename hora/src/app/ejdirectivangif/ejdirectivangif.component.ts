@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ejdirectivangif.component.css']
 })
 export class EjdirectivangifComponent implements OnInit {
-  nombre;
+nombre = '';
   constructor() { }
 
   ngOnInit() {

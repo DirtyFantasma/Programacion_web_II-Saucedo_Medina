@@ -1,12 +1,16 @@
-<h4> introduzca la calificacion</h4>
+<h4>Introduzca la calificacion del Alumno</h4>
 <input type="text" class="form-control" [(ngModel)]="calificacion">
 <hr>
-<div *ngIf="calificacion"> 
+<div *ngIf="calificacion">
     <h4 *ngIf="calificacion >= 0 && calificacion <=10; else aviso"
-        [ngClass]="{aprobado: calificacion > 5,
-                    suspenso: calificacion <=5}">calificacion obtenida: {{calificacion}}  </h4>
-<ng-template #aviso>
-    <h4 *ngIf="calificacion > 10" class="advertencia">introduzca califiacion menor a 10</h4>
-    <h4 *ngIf="calificacion < 0" class="advertencia">introduzca una califiacion mayor o igual a 0</h4>
-</ng-template>
+        [ngClass]="{aprobado: calificacion >5,
+        suspenso: calificacion <=5}">
+    Calificaion obtenida: {{calificacion}}</h4>
+    <ng-template #aviso>
+        <h4 *ngIf="calificacion > 10" class="advertencia">
+            Introduzca una puntuación menor a 10</h4>
+        <h4 *ngIf="calificacion < 0" class="advertencia">
+            Introduzca una puntuación mayor o igual a 0
+        </h4>
+    </ng-template>
 </div>

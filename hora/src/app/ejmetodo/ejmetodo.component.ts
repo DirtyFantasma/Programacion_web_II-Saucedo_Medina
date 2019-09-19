@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ejmetodo.component.css']
 })
 export class EjmetodoComponent implements OnInit {
-  puntuacion=0;
-  getPuntuacion(){
-    return this.puntuacion;
-  }
+puntuacion = 0;
+getPuntuacion() {
+  return this.puntuacion;
+}
   constructor() { }
 
   ngOnInit() {

@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ej2waybinding.component.css']
 })
 export class Ej2waybindingComponent implements OnInit {
-  texto = 'Texto original al cargar';
+texto = 'Texto original al cargar';
   constructor() { }
 
   ngOnInit() {

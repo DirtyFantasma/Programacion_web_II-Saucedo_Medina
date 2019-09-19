@@ -1,28 +1,57 @@
-li.lakers{
-    list-style: none;
-    margin: 50px;
-    padding: 10px;
-    border: 4px solid purple;
-    text-align: center;
-    width: 950px;
-}
-img.lakers{
-  margin: 0%;
+ul {
     
+    list-style: none;
 }
+
+li.lakers{
+    max-width: 600px;
+    height: 120px;
+    background-image: url("../../assets/lal.png");
+    background-size: 16%;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #552682;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img.lakers{
+  margin: 0%; 
+}
+
+img.celtics{
+    margin: 0%; 
+  }
+
 li.celtics{
-    list-style: none;
-    margin: 50px;
-    padding: 10px;
-    border: 4px solid green;
-    text-align: center;
-    width: 950px;
+    max-width: 600px;
+    height: 120px;
+    background-image: url("../../assets/cel.png");
+    background-size: 15%;
+    background-position-x: 10px;
+    background-position-y: 10px;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-width: 5px;
+    border-color: green;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 li.bulls{
-    list-style: none;
-    margin: 50px;
-    padding: 10px;
-    border: 4px solid red;
-    text-align: center;
-    width: 950px;
+    max-width: 600px;
+    height: 120px;
+    background-image: url("../../assets/bulls.png");
+    background-size: 15%;
+    background-position-x: 10px;
+    background-position-y: 10px;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
 }

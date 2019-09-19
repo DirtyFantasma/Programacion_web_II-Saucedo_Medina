@@ -5,10 +5,14 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './ejdirectivangstyle.component.html',
   styleUrls: ['./ejdirectivangstyle.component.css']
 })
-export class EjdirectivangstyleComponent {
-  calificacion: number;
-  setcolor(){
-    return this.calificacion > 5 ? 'green' : 'red';
+export class EjdirectivangstyleComponent implements OnInit {
+calificacion: number;
+setColor() {
+  return this.calificacion > 5 ? 'green' : 'red';
+}
+  constructor() { }
+
+  ngOnInit() {
   }
 
 }

@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ejeventbinding.component.css']
 })
 export class EjeventbindingComponent implements OnInit {
-  texto = 'Originalmente el texto se carga así';
-  modTexto() {
-    this.texto = 'Al pulsar el botón el texto se muestra así';
-  }
+texto = 'Originalmente el texto se carga asi';
+modTexto() {
+  this.texto = 'Al pulsar el boton el texto se muestra asi';
+}
   constructor() { }
 
   ngOnInit() {
