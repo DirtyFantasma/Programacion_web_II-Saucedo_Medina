@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PadreComponent implements OnInit {
 valorPadre: string = 'Este texto proviene del componente padre';
-avisos: string[] = ['Aviso 1','Aviso 2','Aviso 3'];
+avisos: string[] = ['aviso 1','aviso 2','aviso 3'];
 texto: string;
 mostrarMensaje(event){
   this.texto = event + ' marcado como leido';

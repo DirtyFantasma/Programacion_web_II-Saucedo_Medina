@@ -5,7 +5,7 @@ border-color: blue;
 padding: 20px;
 margin: 10px;
 ">
-<h4 [ngClass]="{tachado: leido == true}" style="display: inline">{{aviso}}</h4>
+<h4 [ngClass]="{tachado: leido == true}" style="display:① inline">{{aviso}}</h4>
 <button *ngIf="leido == false" class="btn btn-success pull-right" (click)="marcar() ; detectar($event)">Marcar como leido</button>
 <button *ngIf="leido == true" class="btn btn-danger float-md-right" (click)="marcar()">Desmarcar como leido</button>
 
